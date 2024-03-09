@@ -39,6 +39,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
     <title>Peyek Nyai Home Page</title>
 
     <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
     <!-- Customizable CSS -->
     <link rel="stylesheet" href="assets/css/main.css">
@@ -49,6 +50,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
     <link href="assets/css/lightbox.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/rateit.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
 
     <!-- Demo Purpose Only. Should be removed in production -->
     <link rel="stylesheet" href="assets/css/config.css">
@@ -56,9 +58,6 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
 
 </head>
 
@@ -318,13 +317,17 @@ while ($row=mysqli_fetch_array($ret))
 
         <script src="assets/js/jquery-1.11.1.min.js"></script>
 
+        <script src="assets/js/bootstrap.min.js"></script>
+
         <script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
         <script src="assets/js/owl.carousel.min.js"></script>
 
         <script src="assets/js/echo.min.js"></script>
         <script src="assets/js/jquery.easing-1.3.min.js"></script>
+        <script src="assets/js/bootstrap-slider.min.js"></script>
         <script src="assets/js/jquery.rateit.min.js"></script>
         <script type="text/javascript" src="assets/js/lightbox.min.js"></script>
+        <script src="assets/js/bootstrap-select.min.js"></script>
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/scripts.js"></script>
 
@@ -350,7 +353,6 @@ while ($row=mysqli_fetch_array($ret))
         <!-- For demo purposes – can be removed on production : End -->
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
 
